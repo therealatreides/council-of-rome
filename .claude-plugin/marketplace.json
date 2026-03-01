@@ -1,0 +1,37 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "council-of-rome",
+  "version": "1.0.0",
+  "description": "Five Roman magistrates walk into your codebase. Opinionated AI evaluation skills for brutally honest project review across architecture, UX, security, strategy, and operations. Invoke one or convene the full Senate.",
+  "owner": {
+    "name": "therealatreides"
+  },
+  "plugins": [
+    {
+      "name": "council-of-rome",
+      "source": "./plugins/council-of-rome",
+      "description": "A suite of five Roman magistrate evaluation frameworks — Censor (architecture/code quality), Tribune (UX/accessibility), Praetor (security/compliance), Augur (strategy/market risk), and Legatus (operations/DevOps) — plus a Senate orchestration layer that convenes all five for multi-perspective project assessment. Each magistrate delivers focused, thematically rigorous review with Latin severity classifications, structured findings, and actionable decrees.",
+      "category": "development",
+      "tags": [
+        "code-review",
+        "project-evaluation",
+        "security-audit",
+        "ux-review",
+        "strategy",
+        "devops",
+        "operations",
+        "accessibility",
+        "compliance"
+      ],
+      "strict": false,
+      "skills": [
+        "./skills/council-of-rome",
+        "./skills/censors-decree",
+        "./skills/tribunes-appeal",
+        "./skills/praetors-inquisition",
+        "./skills/augurs-reading",
+        "./skills/legatus-campaign"
+      ]
+    }
+  ]
+}

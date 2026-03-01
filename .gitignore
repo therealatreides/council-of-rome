@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (in case of future scripts)
+node_modules/
+
+# Python (in case of future scripts)
+__pycache__/
+*.pyc
+.venv/
+
+# Archives
+*.zip
+*.skill

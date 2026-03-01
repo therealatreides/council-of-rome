@@ -1,0 +1,13 @@
+{
+  "name": "council-of-rome",
+  "version": "1.0.0",
+  "description": "Five Roman magistrate evaluation frameworks for multi-perspective project assessment. Invoke individually (/censor, /tribune, /praetor, /augur, /legatus) or convene the full Senate (/council).",
+  "skills": [
+    "./skills/council-of-rome",
+    "./skills/censors-decree",
+    "./skills/tribunes-appeal",
+    "./skills/praetors-inquisition",
+    "./skills/augurs-reading",
+    "./skills/legatus-campaign"
+  ]
+}

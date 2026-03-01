@@ -1,0 +1,4 @@
+# Force LF line endings for all bash/bats test files
+*.bash text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
