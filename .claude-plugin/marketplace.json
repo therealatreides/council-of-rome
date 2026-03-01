@@ -10,26 +10,8 @@
     {
       "name": "council-of-rome",
       "source": "./plugins/council-of-rome",
-      "description": "A suite of five Roman magistrate evaluation frameworks — Censor (architecture/code quality), Tribune (UX/accessibility), Praetor (security/compliance), Augur (strategy/market risk), and Legatus (operations/DevOps) — plus a Senate orchestration layer that convenes all five for multi-perspective project assessment. Each magistrate delivers focused, thematically rigorous review with Latin severity classifications, structured findings, and actionable decrees.",
-      "tags": [
-        "code-review",
-        "project-evaluation",
-        "security-audit",
-        "ux-review",
-        "strategy",
-        "devops",
-        "operations",
-        "accessibility",
-        "compliance"
-      ],
-      "skills": [
-        "./skills/council-of-rome",
-        "./skills/censors-decree",
-        "./skills/tribunes-appeal",
-        "./skills/praetors-inquisition",
-        "./skills/augurs-reading",
-        "./skills/legatus-campaign"
-      ]
+      "description": "A suite of five Roman magistrate evaluation frameworks plus a Senate orchestration layer for multi-perspective project assessment.",
+      "category": "productivity"
     }
   ]
 }
